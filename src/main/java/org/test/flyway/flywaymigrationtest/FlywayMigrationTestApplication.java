@@ -1,13 +1,13 @@
-package com.example.demo;
+package org.test.flyway.flywaymigrationtest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class FlywayMigrationTestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(FlywayMigrationTestApplication.class, args);
 	}
 
 }
